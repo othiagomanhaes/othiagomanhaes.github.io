@@ -8,78 +8,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Nunito:ital,wght@0,300;0,400;0,700;1,200&family=Red+Rose:wght@300;700&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: black;
-            text-align: center;
-            color: white;
-        }
-
-        p {
-            font-family: 'Nunito', sans-serif;
-        }
-
-        h1 {
-            font-family: 'Red Rose', cursive;
-            text-align: center;
-        }
-
-        .tools {
-            font-size: 18px;
-        }
-        
-        .lang {
-            font-size: 22px;
-        }
-
-        img{
-            border-radius: 100px;
-        }
-
-        .fotoPerfil {
-            text-align: center;
-        }
-
-         li{
-            list-style-image: url(./imagens/saturno.png);
-        }
-
-        #listaSite {
-            list-style-type: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <h1>Thiago de Oliveira Manhães</h1>
-    <div class="fotoPerfil">
-        <img src="./imagens/Thiago=manhães.png" alt="imagem de Thiago Manhães de terno azul e gravata vermelha">
-    </div>
-    <h2>Um pouco sobre mim</h2>
-    <p><em>Eu sou natural de Campos dos Goytacazes - RJ, onde moro atualmente. <br>
-        Tenho 30 anos, estudo Desenvolvimento Web pela <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. <br>
-         Além de amar programar, eu também amo praia, futebol, acampar, fazer trilhas e torço pelo Vasco. <br>
-        E aqui vou colocar alguns dos meus projetos.</em> <br>
-    </p>
-    <ul id="listSkills"><b>Algumas coisas que tenho estudado:</b></ul>
-        <li class="tools">Bash</li>
-        <li class="tools">Git e GitHub</li>
-        <li class="tools"><b>VSCode</b></li>
-        <li class="lang">HTML</li>        
-        <li class="lang"><b>Python</b></li>
-        <li class="lang">SQL</li>
+        <div>
+            <h1>Thiago de Oliveira Manhães</h1>
+            <div id="fotoPerfil">
+                <img src="./imagens/Thiago=manhães.png" alt="imagem de Thiago Manhães de terno azul e gravata vermelha">
+            </div>
 
-    <br>
-    <br>
-    <br>
+            <div id="descriptionMe">
+                <h2>Um pouco sobre mim</h2>
+                <p><em>Eu sou natural de Campos dos Goytacazes - RJ, onde moro atualmente. <br>
+                    Tenho 30 anos, estudo Desenvolvimento Web pela <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. <br>
+                    Além de amar programar, eu também amo praia, futebol, acampar, <br>
+                    fazer trilhas e torço pelo Vasco. <br>
+                    E aqui vou colocar alguns dos meus projetos.</em> <br>
+                </p>
+            </div>
+        </div>
 
-    <h3><ul><b>Sites que consumo conteúdo</ul></b></h3>
-        <li id="listaSite"><a href="https://www.techtudo.com.br/" target="_blank">TechTudo</a></li>
-    <br>
-    <br>
+        <div id="skills">
+            <ul id="listSkills">
+                <b>Algumas coisas que tenho estudado:</b>
+                <li>Bash</li>
+                <li>Git e GitHub</li>
+                <li><b>VSCode</b></li>
+                <li>HTML</li>        
+                <li><b>Python</b></li>
+                <li>SQL</li>
+            </ul>
 
+            <br>
+            <br>
+            <br>
 
+            <h3><b>Sites que consumo conteúdo</b></h3>
+            <ul>
+                <li id="listaSite"><a href="https://www.techtudo.com.br/" target="_blank">TechTudo</a></li>
+            </ul>
+
+            <br>
+            <br>
+        </div>
 </body>
 </html>

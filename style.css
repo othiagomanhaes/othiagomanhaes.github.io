@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+}
+
+li:nth-child(-n+4) {
+    font-size: 18px;
+}
+
+li:nth-child(5) {
+    font-size: 22px;
+}
+
+li:nth-child(6) {
+    font-size: 22px;
+}
+
+li:nth-child(7) {
+    font-size: 22px;
+}
+
+li:nth-of-type(2n+1):not(#listaSite){
+    background-color: #7D98A1;
+}
+
+img{
+    border-radius: 130px;
+    padding: 5px;
+    background-color: #FAAF00;
+}
+
+#fotoPerfil {
+    position: absolute;
+    left: 360px;    
+}
+
+#descriptionMe {
+    position: absolute;
+    left: 600px;
+}
+
+#descriptionMe h2, p {
+    text-align: left;
+}
+
+ li{
+    list-style-image: url(./imagens/saturno.png);
+}
+
+#listaSite {
+    list-style-type: none;
+}
+
+#skills {
+    position: absolute;
+    top: 400px;
+    left: 470px;
+}
